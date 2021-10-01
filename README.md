@@ -1,47 +1,27 @@
-# Tour of Heroes
+# AngularTourOfHeroes
 
-## Story
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
-You build your own app from the ground up, providing experience with the typical development process, as well as an introduction to basic app-design concepts, tools, and terminology.
+## Development server
 
-This Tour of Heroes tutorial shows you how to set up your local development environment and develop an app using the Angular CLI tool, and provides an introduction to the fundamentals of Angular.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-The Tour of Heroes app that you build helps a staffing agency manage its stable of heroes. The app has many of the features you'd expect to find in any data-driven application. The finished app acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
+## Code scaffolding
 
-You'll learn enough Angular to get started and gain confidence that Angular can do whatever you need it to do.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-You can see how this app will look at the end of you developing and learning way - [live example](https://run.stackblitz.com/api/angular/v1?file=src/app/hero.service.ts).
+## Build
 
-## What are you going to learn?
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- starting with Angular project,
-- reading Angular documentation,
-- use built-in Angular directives to display data,
-- Angular components,
-- one-way data binding for read-only data,
-- two-way data binding,
-- bind component methods to events, like keystrokes and clicks,
-- basic communication between components,
-- format data with pipes,
-- working with shared service,
-- accessing data via HTTP,
-- routing.
+## Running unit tests
 
-## Tasks
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-1. This tutorial is the foundation of everyone who writes in Angular. Everyone started with it. Now it's your turn!
-    - Create project - repository is empty for the purpose of setting up Angular app from the beginning.
-    - Follow each steps from the [Tour of Heroes app and tutorial](https://angular.io/tutorial).
-    - It's highly recommended to not copy introduced steps line to line. Based on the tutorial documentation you can present your own topic, so instead of Heroes, you can make e.g. Pokemon app, or something about flower, animals.
+## Running end-to-end tests
 
-## General requirements
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-None
+## Further help
 
-## Hints
-
-
-
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Tour of Heroes app and tutorial](https://angular.io/tutorial)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
